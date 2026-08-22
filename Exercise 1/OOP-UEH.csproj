@@ -8,4 +8,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Session 2\**" />
+    <EmbeddedResource Remove="Session 2\**" />
+    <None Remove="Session 2\**" />
+  </ItemGroup>
+
 </Project>
