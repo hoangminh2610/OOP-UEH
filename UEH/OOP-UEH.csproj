@@ -6,12 +6,17 @@
     <RootNamespace>Exercise_1</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Exercise_1.Session_3.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Session 2\**" />
     <EmbeddedResource Remove="Session 2\**" />
     <None Remove="Session 2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Session 2\Student.cs" />
   </ItemGroup>
 
 </Project>
