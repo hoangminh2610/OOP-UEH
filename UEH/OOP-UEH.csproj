@@ -6,7 +6,7 @@
     <RootNamespace>Exercise_1</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Exercise_1.Session_3.Program</StartupObject>
+    <StartupObject>Exercise_2.Session_3.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

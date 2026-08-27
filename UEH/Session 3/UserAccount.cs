@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -59,6 +60,7 @@ namespace Exercise_1.Session_3
     {
         static void Main(string[] args)
         {
+            CultureInfo.CurrentCulture = new CultureInfo("en-US");
             // --- TEST HARNESS ---
 
             // 1. Test Object Initialization & Init-Only Property
